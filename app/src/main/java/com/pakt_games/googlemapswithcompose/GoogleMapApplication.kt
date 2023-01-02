@@ -1,4 +1,7 @@
 package com.pakt_games.googlemapswithcompose
 
-class GoogleMapApplication {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class GoogleMapApplication: Application()
